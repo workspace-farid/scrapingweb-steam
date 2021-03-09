@@ -34,5 +34,3 @@ for new_releases in new_releases:
     writer = csv.writer(file)
     writer.writerow([title, price, tags])
     file.close()
-
-
